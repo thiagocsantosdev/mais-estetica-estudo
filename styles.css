@@ -2,22 +2,18 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: helvetica;
-    ba
-    
-    
-    
 }
 header {
     display: flex;
     justify-content: space-between;
-    background: rgb(241,192,232);
-background: linear-gradient(90deg, rgba(241,192,232,1) 0%, rgba(241,137,222,1) 35%, rgba(184,192,255,1) 100%);
-   
+   background-color: #AB2346;
     
 }
 header h1{
     margin-left: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header nav{
     margin-right: 1rem;
@@ -40,6 +36,7 @@ aside img{
     color: #1c1c1c;
 }
 .container{
+    
     height: 200px;
 }
 .container2{
@@ -49,7 +46,7 @@ aside img{
     justify-content: center;
     font-size: 32px;
     flex-direction: column;
-    color: blueviolet;
+    color:  #AB2346;
 }
 .container2 h3{
     font-size: 1rem;
@@ -66,7 +63,7 @@ aside img{
     justify-content: center;
     text-align: center;
     color: white;
-    background-color: blueviolet;
+    background-color:  #AB2346;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -103,10 +100,11 @@ aside img{
 .container4 h2{
     font-size: 2.2rem;
     text-transform: uppercase;
+    border-bottom: 3px solid  #AB2346;
 }
 .container4-plus{
     display: flex;
-    background-color: blueviolet;
+    background-color:  #AB2346;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -116,6 +114,7 @@ aside img{
     color: gold;
     font-style: italic;
     margin-bottom: -20px;
+    font-family: 'Roboto', sans-serif;
 }
 .container5{
     display: flex;
@@ -135,6 +134,9 @@ aside img{
     width: 26vw;
     border-radius: 50px;
 }
+.container5 h2{
+    border-bottom: 3px solid  #AB2346;
+}
 .profissão{
     color: lightslategray;
     line-height: 0px;
@@ -146,6 +148,44 @@ footer{
     justify-content: center;
     color: white;
     padding: 8px;
-    background: rgb(241,192,232);
-    background: linear-gradient(90deg, rgba(241,192,232,1) 0%, rgba(241,137,222,1) 35%, rgba(184,192,255,1) 100%);
+    background-color: #AB2346;
+
+}
+footer nav ul {
+    display: flex;
+    list-style:none;
+    gap:1rem;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    color: green;
+    font-size: 2rem;
+    padding: 0px;
+}
+.new img{
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    opacity: 0.9;
+    position: relative;
+    filter: brightness(0.5);
+}
+.new p{
+    position: absolute;
+    top:100vw;
+    left:2vw;
+    font-family: impact;
+    font-size:2rem;
+    color: white;  
+}
+.falar-com-especialista{
+    position: absolute;
+    top:160vw;
+    left:2vw;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #AB2346;
+    color: white;
 }
